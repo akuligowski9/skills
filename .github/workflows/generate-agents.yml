@@ -8,7 +8,7 @@ on:
       - "scripts/generate_cursor_plugin.py"
       - "scripts/publish.sh"
       - "**/SKILL.md"
-      - "agents/AGENTS.md"
+      - "agents/_AGENTS.md"
       - "README.md"
       - ".claude-plugin/marketplace.json"
       - ".claude-plugin/plugin.json"

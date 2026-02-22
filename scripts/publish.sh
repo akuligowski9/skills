@@ -5,7 +5,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
 GENERATED_FILES=(
-  "agents/AGENTS.md"
+  "agents/_AGENTS.md"
   "README.md"
   ".cursor-plugin/plugin.json"
   ".mcp.json"
@@ -73,7 +73,7 @@ Usage:
   ./scripts/publish.sh --check Verify generated artifacts are up to date
 
 This script regenerates:
-  - agents/AGENTS.md
+  - agents/_AGENTS.md
   - README.md (skills table section)
   - .cursor-plugin/plugin.json
   - .mcp.json
